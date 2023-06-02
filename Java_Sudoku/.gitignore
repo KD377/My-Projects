@@ -1,0 +1,23 @@
+./projekt/FirstJava.iml
+./projekt/target/
+./projekt/.idea/
+./projekt/.DS_Store
+.DS_Store
+.DS_Store projekt/.DS_Store projekt/src/.DS_Store 
+projekt/src/main/.DS_Store projekt/src/main/java/.DS_Store 
+projekt/src/main/java/pl/.DS_Store 
+projekt/src/main/java/pl/first/.DS_Store 
+projekt/src/main/java/pl/first/firstjava/.DS_Store 
+projekt/target/.DS_Store
+
+FirstJava.iml
+.\projekt\target\
+.\projekt\.idea\
+.\projekt\.DS_Store
+.DS_Store
+.DS_Store projekt\.DS_Store projekt\src\.DS_Store 
+projekt\src\main\.DS_Store projekt\src\main\java\.DS_Store 
+projekt\src\main\java\pl\.DS_Store 
+projekt\src\main\java\pl\first\.DS_Store 
+projekt\src\main\java\pl\first\firstjava\.DS_Store 
+projekt\target\.DS_Store

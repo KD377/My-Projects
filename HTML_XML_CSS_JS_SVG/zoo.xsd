@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            targetNamespace="http://www.XMLTechnologies.org/zoo"
+            elementFormDefault="qualified"
+            xmlns:z="http://www.XMLTechnologies.org/zoo">
+
+  <xsd:element name="zoo" type="z:zooType">
+
+    <xsd:key name="key_idG">
+      <xsd:selector xpath="./z:gatunki/z:gatunek"/>
+      <xsd:field xpath="@idG"/>
+    </xsd:key>
+
+    <xsd:key name="key_idWybiegu">
+      <xsd:selector xpath="./z:wybiegi/z:wybieg"/>
+      <xsd:field xpath="@idWybiegu"/>
+    </xsd:key>
+
+    <xsd:keyref name="keyref_idG" refer="z:key_idG">
+        <xsd:selector xpath="./z:zwierzeta/z:zwierze"/>
+        <xsd:field xpath="@idG"/>
+    </xsd:keyref>
+
+    <xsd:keyref name="keyref_idWybiegu" refer="z:key_idWybiegu">
+        <xsd:selector xpath="./z:zwierzeta/z:zwierze"/>
+        <xsd:field xpath="@idWybiegu"/>
+    </xsd:keyref>
+
+  </xsd:element>
+
+  <xsd:complexType name="zooType">
+    <xsd:all>
+      <xsd:element name="header" type="z:headerType"/>
+      <xsd:element name="zwierzeta" type="z:animalsType"/>
+      <xsd:element name="wybiegi" type="z:wybiegiType"/>
+      <xsd:element name="gatunki" type="z:gatunkiType"/>
+    </xsd:all>
+  </xsd:complexType>
+
+  <xsd:complexType name="headerType">
+    <xsd:sequence>
+      <xsd:element name="autor" type="z:autorType"/>
+      <xsd:element name="nrIndeksu" type="z:indexType"/>
+      <xsd:element name="dataModyfikacji" type="xsd:date"/>
+    </xsd:sequence>
+  </xsd:complexType>
+
+  <xsd:simpleType name="autorType">
+    <xsd:list itemType="z:autorStringType"/>
+  </xsd:simpleType>
+
+  <xsd:simpleType name="autorStringType">
+    <xsd:restriction base="xsd:string">
+      <xsd:maxLength value="20"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <xsd:simpleType name="indexType">
+    <xsd:restriction base="xsd:string">
+      <xsd:pattern value="[0-9][0-9][0-9][0-9][0-9][0-9]"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <xsd:complexType name="animalsType">
+    <xsd:sequence>
+      <xsd:element name="zwierze" type="z:animalType" maxOccurs="unbounded"/>
+    </xsd:sequence>
+  </xsd:complexType>
+
+  <xsd:complexType name="animalType">
+    <xsd:sequence>
+      <xsd:group ref="z:animalGroup"/>
+    </xsd:sequence>
+    <xsd:attribute name="idG" type="z:idGType"/>
+    <xsd:attribute name="idWybiegu" type="z:idWybieguType"/>
+    <xsd:attribute name="class" type="z:classType"/>
+  </xsd:complexType>
+
+  <xsd:simpleType name="classType">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="1"/>
+      <xsd:enumeration value="2"/>
+      <xsd:enumeration value="3"/>
+      <xsd:enumeration value="4"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <xsd:group name="animalGroup">
+    <xsd:sequence>
+      <xsd:element name="nazwaZwierzecia" type="z:nazwaType"/>
+      <xsd:element name="imie" type="z:nazwaType" />
+      <xsd:choice>
+        <xsd:element name="wiek" type="z:wiekType"/>
+      </xsd:choice>
+      <xsd:element name="waga" type="z:wagaType"/>
+      <xsd:element name="zdjecie" type="z:zdjecieType" />
+      <xsd:element name="dataUrodzenia" type="z:dataType"/>
+    </xsd:sequence>
+  </xsd:group>
+
+  <xsd:simpleType name="nazwaType">
+    <xsd:restriction base="xsd:string">
+      <xsd:maxLength value="15"/>
+      <xsd:whiteSpace value="preserve"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <xsd:simpleType name="wiekType">
+    <xsd:restriction base="xsd:integer">
+      <xsd:minInclusive value="0"/>
+      <xsd:maxInclusive value="300"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <xsd:complexType name="wagaType">
+    <xsd:simpleContent>
+      <xsd:extension base="z:wagaintType">
+        <xsd:attribute name="jednostka" type="z:jednostkaType"/>
+      </xsd:extension>
+    </xsd:simpleContent>
+  </xsd:complexType>
+
+  <xsd:simpleType name="wagaintType">
+    <xsd:restriction base="xsd:decimal">
+      <xsd:maxInclusive value="1000"/>
+      <xsd:minInclusive value="0"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <xsd:complexType name="zdjecieType">
+    <xsd:attribute name="src" type="z:sourceType" use="required"/>
+    <xsd:attribute name="format" type="z:formatType" use="required"/>
+  </xsd:complexType>
+
+  <xsd:simpleType name="sourceType">
+    <xsd:restriction base="xsd:string">
+      <xsd:pattern value="./Photos/Animals/.*" />
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <xsd:simpleType name="formatType">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="JPEG"/>
+      <xsd:enumeration value="PNG"/>
+      <xsd:enumeration value="GIF"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+
+
+  <xsd:simpleType name="dataType">
+    <xsd:restriction base="xsd:string">
+      <xsd:pattern value="[0-9][0-9].[0-9][0-9].[0-9][0-9][0-9][0-9]"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <xsd:complexType name="wybiegiType">
+    <xsd:sequence>
+      <xsd:element name="wybieg" type="z:wybiegType" maxOccurs="30"/>
+    </xsd:sequence>
+  </xsd:complexType>
+
+  <xsd:complexType name="wybiegType">
+    <xsd:sequence>
+      <xsd:group ref="z:wybiegGroup"/>
+    </xsd:sequence>
+    <xsd:attribute name="idWybiegu" type="z:idWybieguType" use="required"/>
+  </xsd:complexType>
+
+  <xsd:group name="wybiegGroup">
+    <xsd:sequence>
+      <xsd:element name="sektor" type="z:sektorType"/>
+      <xsd:element name="powierzchnia" type="z:powierzchniaType"/>
+      <xsd:element name="typ" type="z:typType"/>
+    </xsd:sequence>
+  </xsd:group>
+
+  <xsd:simpleType name="sektorType">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="A"/>
+      <xsd:enumeration value="B"/>
+      <xsd:enumeration value="C"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <xsd:complexType name="powierzchniaType">
+    <xsd:simpleContent>
+      <xsd:extension base="xsd:nonNegativeInteger">
+        <xsd:attribute name="jednostka" type="z:jednostkaType"/>
+      </xsd:extension>
+    </xsd:simpleContent>
+  </xsd:complexType>
+
+  <xsd:simpleType name="jednostkaType">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="m^2"/>
+      <xsd:enumeration value="kg"/>
+      <xsd:maxLength value="3"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <xsd:simpleType name="typType">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="otwarty"/>
+      <xsd:enumeration value="zamknięty"/>
+      <xsd:enumeration value="wodny"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <xsd:complexType name="gatunkiType">
+    <xsd:sequence>
+      <xsd:element name="gatunek" type="z:gatunekType" maxOccurs="5"/>
+    </xsd:sequence>
+  </xsd:complexType>
+
+  <xsd:complexType name="gatunekType">
+    <xsd:simpleContent>
+      <xsd:extension base="xsd:string">
+        <xsd:attribute name="idG" type="z:idGType" />
+      </xsd:extension>
+    </xsd:simpleContent>
+  </xsd:complexType>
+
+  <xsd:simpleType name="idGType">
+    <xsd:restriction base="xsd:string">
+      <xsd:pattern value="[0-9][0-9]" />
+      <xsd:maxLength value="2" />
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <xsd:simpleType name="idWybieguType">
+    <xsd:restriction base="xsd:string">
+      <xsd:pattern value="W[0-2][0-9]"/>
+      <xsd:maxLength value="3"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+
+
+</xsd:schema>

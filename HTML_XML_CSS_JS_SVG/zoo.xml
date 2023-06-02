@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="zoo.css"?>
+  <z:zoo
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance"
+    xsd:schemaLocation="http://www.XMLTechnologies.org/zoo zoo.xsd"
+    xmlns:z="http://www.XMLTechnologies.org/zoo" >
+
+    <z:header>
+      <z:autor>Autorem dokumentu jest Krzysztof Deka</z:autor>
+      <z:nrIndeksu>242377</z:nrIndeksu>
+      <z:dataModyfikacji>2022-11-07</z:dataModyfikacji>
+    </z:header>
+    <z:zwierzeta>
+
+      <z:zwierze idG="01" idWybiegu="W01" class="1">
+        <z:nazwaZwierzecia >Słoń</z:nazwaZwierzecia> <!--nazwa może zawierać 40 znaków  -->
+        <z:imie >Stefan</z:imie><!--Imie zaczyna się wielką literą i może zaiwerać max 15 znaków-->
+        <z:wiek>22</z:wiek><!-- liczba całkowita -->
+        <z:waga jednostka="kg">500.0</z:waga><!--liczba zmiennoprzecinowa. Reprezentacja w jednostce kg -->
+        <z:zdjecie src="./Photos/Animals/Stefan" format="JPEG"/><!--zdjęcie musi byc zapisane pod podaną ścieżką w formacie JPEG-->
+        <z:dataUrodzenia>12.05.2000</z:dataUrodzenia><!-- data w formacie dd.mm.yyyy-->
+      </z:zwierze>
+
+      <z:zwierze idG="01" idWybiegu="W02" class="2">
+        <z:nazwaZwierzecia >Wydra</z:nazwaZwierzecia> <!--nazwa może zawierać 40 znaków  -->
+        <z:imie >Zosia</z:imie><!--Imie zaczyna się wielką literą i może zaiwerać max 15 znaków-->
+        <z:wiek>15</z:wiek><!-- liczba całkowita -->
+        <z:waga jednostka="kg">20.0</z:waga><!--liczba zmiennoprzecinowa. Reprezentacja w jednostce kg -->
+        <z:zdjecie src="./Photos/Animals/Stefan" format="JPEG"/><!--zdjęcie musi byc zapisane pod podaną ścieżką w formacie JPEG-->
+        <z:dataUrodzenia>12.05.2007</z:dataUrodzenia><!-- data w formacie dd.mm.yyyy-->
+      </z:zwierze>
+      <z:zwierze idG="01" idWybiegu="W03" class="3">
+        <z:nazwaZwierzecia >Pingwin</z:nazwaZwierzecia> <!--nazwa może zawierać 40 znaków  -->
+        <z:imie >Kowalski</z:imie><!--Imie zaczyna się wielką literą i może zaiwerać max 15 znaków-->
+        <z:wiek>2</z:wiek><!-- liczba całkowita -->
+        <z:waga jednostka="kg">75.0</z:waga><!--liczba zmiennoprzecinowa. Reprezentacja w jednostce kg -->
+        <z:zdjecie src="./Photos/Animals/Stefan" format="JPEG"/><!--zdjęcie musi byc zapisane pod podaną ścieżką w formacie JPEG-->
+        <z:dataUrodzenia>13.04.2020</z:dataUrodzenia><!-- data w formacie dd.mm.yyyy-->
+      </z:zwierze>
+      <z:zwierze idG="01" idWybiegu="W04" class="4">
+        <z:nazwaZwierzecia >Żyrafa</z:nazwaZwierzecia> <!--nazwa może zawierać 40 znaków  -->
+        <z:imie >Agata</z:imie><!--Imie zaczyna się wielką literą i może zaiwerać max 15 znaków-->
+        <z:wiek>5</z:wiek><!-- liczba całkowita -->
+        <z:waga jednostka="kg">450.0</z:waga><!--liczba zmiennoprzecinowa. Reprezentacja w jednostce kg -->
+        <z:zdjecie src="./Photos/Animals/Stefan" format="JPEG"/><!--zdjęcie musi byc zapisane pod podaną ścieżką w formacie JPEG-->
+        <z:dataUrodzenia>01.06.2017</z:dataUrodzenia><!-- data w formacie dd.mm.yyyy-->
+      </z:zwierze>
+      <z:zwierze idG="04" idWybiegu="W05" class="1">
+        <z:nazwaZwierzecia >Płaszczka</z:nazwaZwierzecia> <!--nazwa może zawierać 40 znaków  -->
+        <z:imie >Cecylia</z:imie><!--Imie zaczyna się wielką literą i może zaiwerać max 15 znaków-->
+        <z:wiek>16</z:wiek><!-- liczba całkowita -->
+        <z:waga jednostka="kg">200.0</z:waga><!--liczba zmiennoprzecinowa. Reprezentacja w jednostce kg -->
+        <z:zdjecie src="./Photos/Animals/Stefan" format="JPEG"/><!--zdjęcie musi byc zapisane pod podaną ścieżką w formacie JPEG-->
+        <z:dataUrodzenia>19.12.2006</z:dataUrodzenia><!-- data w formacie dd.mm.yyyy-->
+      </z:zwierze>
+      <z:zwierze idG="01" idWybiegu="W06" class="2">
+        <z:nazwaZwierzecia >Koń</z:nazwaZwierzecia> <!--nazwa może zawierać 40 znaków  -->
+        <z:imie >Adrian</z:imie><!--Imie zaczyna się wielką literą i może zaiwerać max 15 znaków-->
+        <z:wiek>1</z:wiek><!-- liczba całkowita -->
+        <z:waga jednostka="kg">500.0</z:waga><!--liczba zmiennoprzecinowa. Reprezentacja w jednostce kg -->
+        <z:zdjecie src="./Photos/Animals/Stefan" format="JPEG"/><!--zdjęcie musi byc zapisane pod podaną ścieżką w formacie JPEG-->
+        <z:dataUrodzenia>01,01.2021</z:dataUrodzenia><!-- data w formacie dd.mm.yyyy-->
+      </z:zwierze>
+      <z:zwierze idG="02" idWybiegu="W07" class="3">
+        <z:nazwaZwierzecia >Salamandra</z:nazwaZwierzecia> <!--nazwa może zawierać 40 znaków  -->
+        <z:imie >Weri</z:imie><!--Imie zaczyna się wielką literą i może zaiwerać max 15 znaków-->
+        <z:wiek>2</z:wiek><!-- liczba całkowita -->
+        <z:waga jednostka="kg">0.2</z:waga><!--liczba zmiennoprzecinowa. Reprezentacja w jednostce kg -->
+        <z:zdjecie src="./Photos/Animals/Stefan" format="JPEG"/><!--zdjęcie musi byc zapisane pod podaną ścieżką w formacie JPEG-->
+        <z:dataUrodzenia>17.07.2020</z:dataUrodzenia><!-- data w formacie dd.mm.yyyy-->
+      </z:zwierze>
+      <z:zwierze idG="03" idWybiegu="W08" class="4">
+        <z:nazwaZwierzecia >Żaba</z:nazwaZwierzecia> <!--nazwa może zawierać 40 znaków  -->
+        <z:imie >Lucy</z:imie><!--Imie zaczyna się wielką literą i może zaiwerać max 15 znaków-->
+        <z:wiek>3</z:wiek><!-- liczba całkowita -->
+        <z:waga jednostka="kg">0.1</z:waga><!--liczba zmiennoprzecinowa. Reprezentacja w jednostce kg -->
+        <z:zdjecie src="./Photos/Animals/Stefan" format="JPEG"/><!--zdjęcie musi byc zapisane pod podaną ścieżką w formacie JPEG-->
+        <z:dataUrodzenia>12.05.2019</z:dataUrodzenia><!-- data w formacie dd.mm.yyyy-->
+
+      </z:zwierze>
+      <z:zwierze idG="01" idWybiegu="W09" class="1">
+        <z:nazwaZwierzecia >Lew</z:nazwaZwierzecia> <!--nazwa może zawierać 40 znaków  -->
+        <z:imie >Daro</z:imie><!--Imie zaczyna się wielką literą i może zaiwerać max 15 znaków-->
+        <z:wiek>7</z:wiek><!-- liczba całkowita -->
+        <z:waga jednostka="kg">650.0</z:waga><!--liczba zmiennoprzecinowa. Reprezentacja w jednostce kg -->
+        <z:zdjecie src="./Photos/Animals/Stefan" format="JPEG"/><!--zdjęcie musi byc zapisane pod podaną ścieżką w formacie JPEG-->
+        <z:dataUrodzenia>02.09.2016</z:dataUrodzenia><!-- data w formacie dd.mm.yyyy-->
+
+      </z:zwierze>
+      <z:zwierze idG="01" idWybiegu="W10" class="2">
+        <z:nazwaZwierzecia >Tygrys</z:nazwaZwierzecia> <!--nazwa może zawierać 40 znaków  -->
+        <z:imie >Michał</z:imie><!--Imie zaczyna się wielką literą i może zaiwerać max 15 znaków-->
+        <z:wiek>10</z:wiek><!-- liczba całkowita -->
+        <z:waga jednostka="kg">700.0</z:waga><!--liczba zmiennoprzecinowa. Reprezentacja w jednostce kg -->
+        <z:zdjecie src="./Photos/Animals/Stefan" format="JPEG"/><!--zdjęcie musi byc zapisane pod podaną ścieżką w formacie JPEG-->
+        <z:dataUrodzenia>14.02.2012</z:dataUrodzenia><!-- data w formacie dd.mm.yyyy-->
+
+      </z:zwierze>
+      <z:zwierze idG="01" idWybiegu="W11" class="3">
+        <z:nazwaZwierzecia >Kapucynka</z:nazwaZwierzecia> <!--nazwa może zawierać 40 znaków  -->
+        <z:imie >Stefcia</z:imie><!--Imie zaczyna się wielką literą i może zaiwerać max 15 znaków-->
+        <z:wiek>3</z:wiek><!-- liczba całkowita -->
+        <z:waga jednostka="kg">30.0</z:waga><!--liczba zmiennoprzecinowa. Reprezentacja w jednostce kg -->
+        <z:zdjecie src="./Photos/Animals/Stefan" format="JPEG"/><!--zdjęcie musi byc zapisane pod podaną ścieżką w formacie JPEG-->
+        <z:dataUrodzenia>12.05.2019</z:dataUrodzenia><!-- data w formacie dd.mm.yyyy-->
+
+      </z:zwierze>
+      <z:zwierze idG="04" idWybiegu="W12" class="4">
+        <z:nazwaZwierzecia >Pirania</z:nazwaZwierzecia> <!--nazwa może zawierać 40 znaków  -->
+        <z:imie >Ada</z:imie><!--Imie zaczyna się wielką literą i może zaiwerać max 15 znaków-->
+        <z:wiek>2</z:wiek><!-- liczba całkowita -->
+        <z:waga jednostka="kg">0.7</z:waga><!--liczba zmiennoprzecinowa. Reprezentacja w jednostce kg -->
+        <z:zdjecie src="./Photos/Animals/Stefan" format="JPEG"/><!--zdjęcie musi byc zapisane pod podaną ścieżką w formacie JPEG-->
+        <z:dataUrodzenia>26.05.2020</z:dataUrodzenia><!-- data w formacie dd.mm.yyyy-->
+
+      </z:zwierze>
+      <z:zwierze idG="01" idWybiegu="W13" class="1">
+        <z:nazwaZwierzecia >Koza</z:nazwaZwierzecia> <!--nazwa może zawierać 40 znaków  -->
+        <z:imie >Adrian</z:imie><!--Imie zaczyna się wielką literą i może zaiwerać max 15 znaków-->
+        <z:wiek>5</z:wiek><!-- liczba całkowita -->
+        <z:waga jednostka="kg">150.0</z:waga><!--liczba zmiennoprzecinowa. Reprezentacja w jednostce kg -->
+        <z:zdjecie src="./Photos/Animals/Stefan" format="JPEG"/><!--zdjęcie musi byc zapisane pod podaną ścieżką w formacie JPEG-->
+        <z:dataUrodzenia>11.11.2017</z:dataUrodzenia><!-- data w formacie dd.mm.yyyy-->
+
+      </z:zwierze>
+      <z:zwierze idG="05" idWybiegu="W14" class="2">
+        <z:nazwaZwierzecia >Paw</z:nazwaZwierzecia> <!--nazwa może zawierać 40 znaków  -->
+        <z:imie >Burek</z:imie><!--Imie zaczyna się wielką literą i może zaiwerać max 15 znaków-->
+        <z:wiek>3</z:wiek><!-- liczba całkowita -->
+        <z:waga jednostka="kg">50.0</z:waga><!--liczba zmiennoprzecinowa. Reprezentacja w jednostce kg -->
+        <z:zdjecie src="./Photos/Animals/Stefan" format="JPEG"/><!--zdjęcie musi byc zapisane pod podaną ścieżką w formacie JPEG-->
+        <z:dataUrodzenia>12.05.2019</z:dataUrodzenia><!-- data w formacie dd.mm.yyyy-->
+
+      </z:zwierze>
+      <z:zwierze idG="05" idWybiegu="W15" class="3">
+        <z:nazwaZwierzecia >Bażant</z:nazwaZwierzecia> <!--nazwa może zawierać 40 znaków  -->
+        <z:imie >Beza</z:imie><!--Imie zaczyna się wielką literą i może zaiwerać max 15 znaków-->
+        <z:wiek>12</z:wiek><!-- liczba całkowita -->
+        <z:waga jednostka="kg">12.0</z:waga><!--liczba zmiennoprzecinowa. Reprezentacja w jednostce kg -->
+        <z:zdjecie src="./Photos/Animals/Stefan" format="JPEG"/><!--zdjęcie musi byc zapisane pod podaną ścieżką w formacie JPEG-->
+        <z:dataUrodzenia>13.08.2010</z:dataUrodzenia><!-- data w formacie dd.mm.yyyy-->
+
+      </z:zwierze>
+      <z:zwierze idG="01" idWybiegu="W16" class="4">
+        <z:nazwaZwierzecia >Hiena</z:nazwaZwierzecia> <!--nazwa może zawierać 40 znaków  -->
+        <z:imie >Ola</z:imie><!--Imie zaczyna się wielką literą i może zaiwerać max 15 znaków-->
+        <z:wiek>4</z:wiek><!-- liczba całkowita -->
+        <z:waga jednostka="kg">120.5</z:waga><!--liczba zmiennoprzecinowa. Reprezentacja w jednostce kg -->
+        <z:zdjecie src="./Photos/Animals/Stefan" format="JPEG"/><!--zdjęcie musi byc zapisane pod podaną ścieżką w formacie JPEG-->
+        <z:dataUrodzenia>12.05.2018</z:dataUrodzenia><!-- data w formacie dd.mm.yyyy-->
+
+      </z:zwierze>
+      <z:zwierze idG="01" idWybiegu="W17" class="1">
+        <z:nazwaZwierzecia >Żubr</z:nazwaZwierzecia> <!--nazwa może zawierać 40 znaków  -->
+        <z:imie >Henio</z:imie><!--Imie zaczyna się wielką literą i może zaiwerać max 15 znaków-->
+        <z:wiek>20</z:wiek><!-- liczba całkowita -->
+        <z:waga jednostka="kg">800.0</z:waga><!--liczba zmiennoprzecinowa. Reprezentacja w jednostce kg -->
+        <z:zdjecie src="./Photos/Animals/Stefan" format="JPEG"/><!--zdjęcie musi byc zapisane pod podaną ścieżką w formacie JPEG-->
+        <z:dataUrodzenia>13.01.2002</z:dataUrodzenia><!-- data w formacie dd.mm.yyyy-->
+
+      </z:zwierze>
+      <z:zwierze idG="01" idWybiegu="W18" class="2">
+        <z:nazwaZwierzecia >Wilk</z:nazwaZwierzecia> <!--nazwa może zawierać 40 znaków  -->
+        <z:imie >Maciek</z:imie><!--Imie zaczyna się wielką literą i może zaiwerać max 15 znaków-->
+        <z:wiek>3</z:wiek><!-- liczba całkowita -->
+        <z:waga jednostka="kg">220.0</z:waga><!--liczba zmiennoprzecinowa. Reprezentacja w jednostce kg -->
+        <z:zdjecie src="./Photos/Animals/Stefan" format="JPEG"/><!--zdjęcie musi byc zapisane pod podaną ścieżką w formacie JPEG-->
+        <z:dataUrodzenia>27.09.2019</z:dataUrodzenia><!-- data w formacie dd.mm.yyyy-->
+
+      </z:zwierze>
+      <z:zwierze idG="04" idWybiegu="W19" class="3">
+        <z:nazwaZwierzecia>Rekin</z:nazwaZwierzecia><!--nazwa może zawierać 40 znaków  -->
+        <z:imie>Seba</z:imie><!--Imie zaczyna się wielką literą i może zaiwerać max 15 znaków-->
+        <z:wiek>17</z:wiek><!-- liczba całkowita -->
+        <z:waga jednostka="kg">400.0</z:waga><!--liczba zmiennoprzecinowa. Reprezentacja w jednostce kg -->
+        <z:zdjecie src="./Photos/Animals/Daro" format="JPEG"/><!--zdjęcie musi byc zapisane pod podaną ścieżką w formacie JPEG-->
+        <z:dataUrodzenia>15.06.2005</z:dataUrodzenia><!-- data w formacie dd.mm.yyyy-->
+
+      </z:zwierze>
+      <z:zwierze idG="02" idWybiegu="W20" class="4">
+        <z:nazwaZwierzecia>Wąż</z:nazwaZwierzecia><!--nazwa może zawierać 40 znaków  -->
+        <z:imie>Burek</z:imie><!--Imie zaczyna się wielką literą i może zaiwerać max 15 znaków-->
+        <z:wiek>15</z:wiek><!-- liczba całkowita -->
+        <z:waga jednostka="kg">150.0</z:waga><!--liczba zmiennoprzecinowa. Reprezentacja w jednostce kg -->
+        <z:zdjecie src="./Photos/Animals/Burek" format="JPEG"/><!--zdjęcie musi byc zapisane pod podaną ścieżką w formacie JPEG-->
+        <z:dataUrodzenia>12.10.2007</z:dataUrodzenia><!-- data w formacie dd.mm.yyyy-->
+
+      </z:zwierze>
+    </z:zwierzeta>
+
+    <z:wybiegi>
+      <z:wybieg idWybiegu="W01"><!--id w formacie duża litera W oraz dwie cyfry -->
+        <z:sektor>A</z:sektor><!--Wielka litera alfabetu łacińskiego od A-F -->
+        <z:powierzchnia jednostka="m^2">200</z:powierzchnia><!--Liczba calkowita nieujemna max 500 jednostka m^2-->
+        <z:typ>otwarty</z:typ><!--do wyboru typ: otawrty,zamknięty,wodny-->
+      </z:wybieg>
+
+      <z:wybieg idWybiegu="W02"><!--id w formacie duża litera W oraz dwie cyfry -->
+        <z:sektor>A</z:sektor><!--Wielka litera alfabetu łacińskiego od A-F -->
+        <z:powierzchnia jednostka="m^2">100</z:powierzchnia><!--Liczba calkowita nieujemna max 500 jednostka m^2-->
+        <z:typ>wodny</z:typ><!--do wyboru typ: otawrty,zamknięty,wodny-->
+      </z:wybieg>
+
+      <z:wybieg idWybiegu="W03"><!--id w formacie duża litera W oraz dwie cyfry -->
+        <z:sektor>B</z:sektor><!--Wielka litera alfabetu łacińskiego od A-F -->
+        <z:powierzchnia jednostka="m^2">100</z:powierzchnia><!--Liczba calkowita nieujemna max 500 jednostka m^2-->
+        <z:typ>zamknięty</z:typ><!--do wyboru typ: otawrty,zamknięty,wodny-->
+      </z:wybieg>
+
+      <z:wybieg idWybiegu="W04"><!--id w formacie duża litera W oraz dwie cyfry -->
+        <z:sektor>A</z:sektor><!--Wielka litera alfabetu łacińskiego od A-F -->
+        <z:powierzchnia jednostka="m^2">200</z:powierzchnia><!--Liczba calkowita nieujemna max 500 jednostka m^2-->
+        <z:typ>otwarty</z:typ><!--do wyboru typ: otawrty,zamknięty,wodny-->
+      </z:wybieg>
+
+      <z:wybieg idWybiegu="W05"><!--id w formacie duża litera W oraz dwie cyfry -->
+        <z:sektor>B</z:sektor><!--Wielka litera alfabetu łacińskiego od A-F -->
+        <z:powierzchnia jednostka="m^2">50</z:powierzchnia><!--Liczba calkowita nieujemna max 500 jednostka m^2-->
+        <z:typ>wodny</z:typ><!--do wyboru typ: otawrty,zamknięty,wodny-->
+      </z:wybieg>
+
+      <z:wybieg idWybiegu="W06"><!--id w formacie duża litera W oraz dwie cyfry -->
+        <z:sektor>A</z:sektor><!--Wielka litera alfabetu łacińskiego od A-F -->
+        <z:powierzchnia jednostka="m^2">300</z:powierzchnia><!--Liczba calkowita nieujemna max 500 jednostka m^2-->
+        <z:typ>otwarty</z:typ><!--do wyboru typ: otawrty,zamknięty,wodny-->
+      </z:wybieg>
+
+      <z:wybieg idWybiegu="W07"><!--id w formacie duża litera W oraz dwie cyfry -->
+        <z:sektor>A</z:sektor><!--Wielka litera alfabetu łacińskiego od A-F -->
+        <z:powierzchnia jednostka="m^2">5</z:powierzchnia><!--Liczba calkowita nieujemna max 500 jednostka m^2-->
+        <z:typ>zamknięty</z:typ><!--do wyboru typ: otawrty,zamknięty,wodny-->
+      </z:wybieg>
+
+      <z:wybieg idWybiegu="W08"><!--id w formacie duża litera W oraz dwie cyfry -->
+        <z:sektor>A</z:sektor><!--Wielka litera alfabetu łacińskiego od A-F -->
+        <z:powierzchnia jednostka="m^2">5</z:powierzchnia><!--Liczba calkowita nieujemna max 500 jednostka m^2-->
+        <z:typ>zamknięty</z:typ><!--do wyboru typ: otawrty,zamknięty,wodny-->
+      </z:wybieg>
+
+      <z:wybieg idWybiegu="W09"><!--id w formacie duża litera W oraz dwie cyfry -->
+        <z:sektor>A</z:sektor><!--Wielka litera alfabetu łacińskiego od A-F -->
+        <z:powierzchnia jednostka="m^2">200</z:powierzchnia><!--Liczba calkowita nieujemna max 500 jednostka m^2-->
+        <z:typ>otwarty</z:typ><!--do wyboru typ: otawrty,zamknięty,wodny-->
+      </z:wybieg>
+
+      <z:wybieg idWybiegu="W10"><!--id w formacie duża litera W oraz dwie cyfry -->
+        <z:sektor>A</z:sektor><!--Wielka litera alfabetu łacińskiego od A-F -->
+        <z:powierzchnia jednostka="m^2">250</z:powierzchnia><!--Liczba calkowita nieujemna max 500 jednostka m^2-->
+        <z:typ>otwarty</z:typ><!--do wyboru typ: otawrty,zamknięty,wodny-->
+      </z:wybieg>
+
+      <z:wybieg idWybiegu="W11"><!--id w formacie duża litera W oraz dwie cyfry -->
+        <z:sektor>A</z:sektor><!--Wielka litera alfabetu łacińskiego od A-F -->
+        <z:powierzchnia jednostka="m^2">25</z:powierzchnia><!--Liczba calkowita nieujemna max 500 jednostka m^2-->
+        <z:typ>zamknięty</z:typ><!--do wyboru typ: otawrty,zamknięty,wodny-->
+      </z:wybieg>
+
+      <z:wybieg idWybiegu="W12"><!--id w formacie duża litera W oraz dwie cyfry -->
+        <z:sektor>A</z:sektor><!--Wielka litera alfabetu łacińskiego od A-F -->
+        <z:powierzchnia jednostka="m^2">5</z:powierzchnia><!--Liczba calkowita nieujemna max 500 jednostka m^2-->
+        <z:typ>wodny</z:typ><!--do wyboru typ: otawrty,zamknięty,wodny-->
+      </z:wybieg>
+
+      <z:wybieg idWybiegu="W13"><!--id w formacie duża litera W oraz dwie cyfry -->
+        <z:sektor>A</z:sektor><!--Wielka litera alfabetu łacińskiego od A-F -->
+        <z:powierzchnia jednostka="m^2">40</z:powierzchnia><!--Liczba calkowita nieujemna max 500 jednostka m^2-->
+        <z:typ>otwarty</z:typ><!--do wyboru typ: otawrty,zamknięty,wodny-->
+      </z:wybieg>
+
+      <z:wybieg idWybiegu="W14"><!--id w formacie duża litera W oraz dwie cyfry -->
+        <z:sektor>A</z:sektor><!--Wielka litera alfabetu łacińskiego od A-F -->
+        <z:powierzchnia jednostka="m^2">30</z:powierzchnia><!--Liczba calkowita nieujemna max 500 jednostka m^2-->
+        <z:typ>zamknięty</z:typ><!--do wyboru typ: otawrty,zamknięty,wodny-->
+      </z:wybieg>
+
+      <z:wybieg idWybiegu="W15"><!--id w formacie duża litera W oraz dwie cyfry -->
+        <z:sektor>C</z:sektor><!--Wielka litera alfabetu łacińskiego od A-F -->
+        <z:powierzchnia jednostka="m^2">5</z:powierzchnia><!--Liczba calkowita nieujemna max 500 jednostka m^2-->
+        <z:typ>otwarty</z:typ><!--do wyboru typ: otawrty,zamknięty,wodny-->
+      </z:wybieg>
+
+      <z:wybieg idWybiegu="W16"><!--id w formacie duża litera W oraz dwie cyfry -->
+        <z:sektor>C</z:sektor><!--Wielka litera alfabetu łacińskiego od A-F -->
+        <z:powierzchnia jednostka="m^2">50</z:powierzchnia><!--Liczba calkowita nieujemna max 500 jednostka m^2-->
+        <z:typ>otwarty</z:typ><!--do wyboru typ: otawrty,zamknięty,wodny-->
+      </z:wybieg>
+
+      <z:wybieg idWybiegu="W17"><!--id w formacie duża litera W oraz dwie cyfry -->
+        <z:sektor>C</z:sektor><!--Wielka litera alfabetu łacińskiego od A-F -->
+        <z:powierzchnia jednostka="m^2">200</z:powierzchnia><!--Liczba calkowita nieujemna max 500 jednostka m^2-->
+        <z:typ>otwarty</z:typ><!--do wyboru typ: otawrty,zamknięty,wodny-->
+      </z:wybieg>
+
+      <z:wybieg idWybiegu="W18"><!--id w formacie duża litera W oraz dwie cyfry -->
+        <z:sektor>C</z:sektor><!--Wielka litera alfabetu łacińskiego od A-F -->
+        <z:powierzchnia jednostka="m^2">500</z:powierzchnia><!--Liczba calkowita nieujemna max 500 jednostka m^2-->
+        <z:typ>otwarty</z:typ><!--do wyboru typ: otawrty,zamknięty,wodny-->
+      </z:wybieg>
+
+      <z:wybieg idWybiegu="W19"><!--id w formacie duża litera W oraz dwie cyfry -->
+        <z:sektor>B</z:sektor><!--Wielka litera alfabetu łacińskiego od A-F -->
+        <z:powierzchnia jednostka="m^2">500</z:powierzchnia><!--Liczba calkowita nieujemna max 500 jednostka m^2-->
+        <z:typ>wodny</z:typ><!--do wyboru typ: otawrty,zamknięty,wodny-->
+      </z:wybieg>
+
+      <z:wybieg idWybiegu="W20"><!--id w formacie duża litera W oraz dwie cyfry -->
+        <z:sektor>B</z:sektor><!--Wielka litera alfabetu łacińskiego od A-F -->
+        <z:powierzchnia jednostka="m^2">5</z:powierzchnia><!--Liczba calkowita nieujemna max 500 jednostka m^2-->
+        <z:typ>zamknięty</z:typ><!--do wyboru typ: otawrty,zamknięty,wodny-->
+      </z:wybieg>
+
+    </z:wybiegi>
+
+    <z:gatunki>
+      <z:gatunek idG="01">ssak</z:gatunek>
+      <z:gatunek idG="02">gad</z:gatunek>
+      <z:gatunek idG="03">płaz</z:gatunek>
+      <z:gatunek idG="04">ryba</z:gatunek>
+      <z:gatunek idG="05">ptak</z:gatunek>
+    </z:gatunki>
+
+  </z:zoo>

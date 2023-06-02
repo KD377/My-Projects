@@ -1,0 +1,49 @@
+| Nazwa zwierzęcia |   Imie   | Wiek | Waga | Data urodzenia | Gatunek | Wybieg (sektor,powierzchnia,typ) |
+-----------------------------------------------------------------------------------------------------------
+Pirania             Ada        2      0.7    26.05.2020       ryba      A, 5m^2, wodny
+Koń                 Adrian     1      500.0  01,01.2021       ssak      A, 300m^2, otwarty
+Koza                Adrian     5      150.0  11.11.2017       ssak      A, 40m^2, otwarty
+Żyrafa              Agata      5      450.0  01.06.2017       ssak      A, 200m^2, otwarty
+Bażant              Beza       12     12.0   13.08.2010       ptak      C, 5m^2, otwarty
+Paw                 Burek      3      50.0   12.05.2019       ptak      A, 30m^2, zamknięty
+Wąż                 Burek      15     150.0  12.10.2007       gad       B, 5m^2, zamknięty
+Płaszczka           Cecylia    16     200.0  19.12.2006       ryba      B, 50m^2, wodny
+Lew                 Daro       7      650.0  02.09.2016       ssak      A, 200m^2, otwarty
+Żubr                Henio      20     800.0  13.01.2002       ssak      C, 200m^2, otwarty
+Pingwin             Kowalski   2      75.0   13.04.2020       ssak      B, 100m^2, zamknięty
+Żaba                Lucy       3      0.1    12.05.2019       płaz      A, 5m^2, zamknięty
+Wilk                Maciek     3      220.0  27.09.2019       ssak      C, 500m^2, otwarty
+Tygrys              Michał     10     700.0  14.02.2012       ssak      A, 250m^2, otwarty
+Hiena               Ola        4      120.5  12.05.2018       ssak      C, 50m^2, otwarty
+Rekin               Seba       17     400.0  15.06.2005       ryba      B, 500m^2, wodny
+Słoń                Stefan     22     500.0  12.05.2000       ssak      A, 200m^2, otwarty
+Kapucynka           Stefcia    3      30.0   12.05.2019       ssak      A, 25m^2, zamknięty
+Salamandra          Weri       2      0.2    17.07.2020       gad       A, 5m^2, zamknięty
+Wydra               Zosia      15     20.0   12.05.2007       ssak      A, 100m^2, wodny
+
+-----------------------------------------------------------------------------------------------------------
+Statystyki
+-----------------------------------------------------------------------------------------------------------
+Ilość ssaków:                           12
+Ilość gadów:                            2
+Ilość płazów:                           1
+Ilość ryb:                              3
+Ilość ptaków:                           2
+Razem:                                  20
+-----------------------------------------------------------------------------------------------------------
+
+Ilość zwierząt w sektorze A:            12
+Ilość zwierząt w sektorze B:            4
+Ilość zwierząt w sektorze C:            4
+Ilość zwierząt we wszystkich sektorach: 20
+-----------------------------------------------------------------------------------------------------------
+
+Średnia waga zwierzęcia:                251.43
+Średnia powierzchnia wybiegu:           138.50
+Średni wiek zwierzęcia:                 8.35
+-----------------------------------------------------------------------------------------------------------
+
+Najcięższe zwierzę:                     Henio
+Najlżejsze zwierzę:                     Lucy
+NAjwiększy wybieg:                      W18
+-----------------------------------------------------------------------------------------------------------

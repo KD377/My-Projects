@@ -1,0 +1,122 @@
+<zoo>
+  <zwierzeta>
+    <zwierze nazwaZwierzecia="Pirania" imie="Ada" wiek="2" waga="0.7" dataUrodzenia="26.05.2020">
+      <Gatunek>ryba</Gatunek>
+      <Wybieg sektor="A" powierzchnia="5m^2" typ="wodny"/>
+      <powierzchniaNaKg>7.14</powierzchniaNaKg>
+    </zwierze>
+    <zwierze nazwaZwierzecia="Koń" imie="Adrian" wiek="1" waga="500.0" dataUrodzenia="01,01.2021">
+      <Gatunek>ssak</Gatunek>
+      <Wybieg sektor="A" powierzchnia="300m^2" typ="otwarty"/>
+      <powierzchniaNaKg>0.60</powierzchniaNaKg>
+    </zwierze>
+    <zwierze nazwaZwierzecia="Koza" imie="Adrian" wiek="5" waga="150.0" dataUrodzenia="11.11.2017">
+      <Gatunek>ssak</Gatunek>
+      <Wybieg sektor="A" powierzchnia="40m^2" typ="otwarty"/>
+      <powierzchniaNaKg>0.27</powierzchniaNaKg>
+    </zwierze>
+    <zwierze nazwaZwierzecia="Żyrafa" imie="Agata" wiek="5" waga="450.0" dataUrodzenia="01.06.2017">
+      <Gatunek>ssak</Gatunek>
+      <Wybieg sektor="A" powierzchnia="200m^2" typ="otwarty"/>
+      <powierzchniaNaKg>0.44</powierzchniaNaKg>
+    </zwierze>
+    <zwierze nazwaZwierzecia="Bażant" imie="Beza" wiek="12" waga="12.0" dataUrodzenia="13.08.2010">
+      <Gatunek>ptak</Gatunek>
+      <Wybieg sektor="C" powierzchnia="5m^2" typ="otwarty"/>
+      <powierzchniaNaKg>0.42</powierzchniaNaKg>
+    </zwierze>
+    <zwierze nazwaZwierzecia="Paw" imie="Burek" wiek="3" waga="50.0" dataUrodzenia="12.05.2019">
+      <Gatunek>ptak</Gatunek>
+      <Wybieg sektor="A" powierzchnia="30m^2" typ="zamknięty"/>
+      <powierzchniaNaKg>0.60</powierzchniaNaKg>
+    </zwierze>
+    <zwierze nazwaZwierzecia="Wąż" imie="Burek" wiek="15" waga="150.0" dataUrodzenia="12.10.2007">
+      <Gatunek>gad</Gatunek>
+      <Wybieg sektor="B" powierzchnia="5m^2" typ="zamknięty"/>
+      <powierzchniaNaKg>0.03</powierzchniaNaKg>
+    </zwierze>
+    <zwierze nazwaZwierzecia="Płaszczka" imie="Cecylia" wiek="16" waga="200.0" dataUrodzenia="19.12.2006">
+      <Gatunek>ryba</Gatunek>
+      <Wybieg sektor="B" powierzchnia="50m^2" typ="wodny"/>
+      <powierzchniaNaKg>0.25</powierzchniaNaKg>
+    </zwierze>
+    <zwierze nazwaZwierzecia="Lew" imie="Daro" wiek="7" waga="650.0" dataUrodzenia="02.09.2016">
+      <Gatunek>ssak</Gatunek>
+      <Wybieg sektor="A" powierzchnia="200m^2" typ="otwarty"/>
+      <powierzchniaNaKg>0.31</powierzchniaNaKg>
+    </zwierze>
+    <zwierze nazwaZwierzecia="Żubr" imie="Henio" wiek="20" waga="800.0" dataUrodzenia="13.01.2002">
+      <Gatunek>ssak</Gatunek>
+      <Wybieg sektor="C" powierzchnia="200m^2" typ="otwarty"/>
+      <powierzchniaNaKg>0.25</powierzchniaNaKg>
+    </zwierze>
+    <zwierze nazwaZwierzecia="Pingwin" imie="Kowalski" wiek="2" waga="75.0" dataUrodzenia="13.04.2020">
+      <Gatunek>ssak</Gatunek>
+      <Wybieg sektor="B" powierzchnia="100m^2" typ="zamknięty"/>
+      <powierzchniaNaKg>1.33</powierzchniaNaKg>
+    </zwierze>
+    <zwierze nazwaZwierzecia="Żaba" imie="Lucy" wiek="3" waga="0.1" dataUrodzenia="12.05.2019">
+      <Gatunek>płaz</Gatunek>
+      <Wybieg sektor="A" powierzchnia="5m^2" typ="zamknięty"/>
+      <powierzchniaNaKg>50.00</powierzchniaNaKg>
+    </zwierze>
+    <zwierze nazwaZwierzecia="Wilk" imie="Maciek" wiek="3" waga="220.0" dataUrodzenia="27.09.2019">
+      <Gatunek>ssak</Gatunek>
+      <Wybieg sektor="C" powierzchnia="500m^2" typ="otwarty"/>
+      <powierzchniaNaKg>2.27</powierzchniaNaKg>
+    </zwierze>
+    <zwierze nazwaZwierzecia="Tygrys" imie="Michał" wiek="10" waga="700.0" dataUrodzenia="14.02.2012">
+      <Gatunek>ssak</Gatunek>
+      <Wybieg sektor="A" powierzchnia="250m^2" typ="otwarty"/>
+      <powierzchniaNaKg>0.36</powierzchniaNaKg>
+    </zwierze>
+    <zwierze nazwaZwierzecia="Hiena" imie="Ola" wiek="4" waga="120.5" dataUrodzenia="12.05.2018">
+      <Gatunek>ssak</Gatunek>
+      <Wybieg sektor="C" powierzchnia="50m^2" typ="otwarty"/>
+      <powierzchniaNaKg>0.41</powierzchniaNaKg>
+    </zwierze>
+    <zwierze nazwaZwierzecia="Rekin" imie="Seba" wiek="17" waga="400.0" dataUrodzenia="15.06.2005">
+      <Gatunek>ryba</Gatunek>
+      <Wybieg sektor="B" powierzchnia="500m^2" typ="wodny"/>
+      <powierzchniaNaKg>1.25</powierzchniaNaKg>
+    </zwierze>
+    <zwierze nazwaZwierzecia="Słoń" imie="Stefan" wiek="22" waga="500.0" dataUrodzenia="12.05.2000">
+      <Gatunek>ssak</Gatunek>
+      <Wybieg sektor="A" powierzchnia="200m^2" typ="otwarty"/>
+      <powierzchniaNaKg>0.40</powierzchniaNaKg>
+    </zwierze>
+    <zwierze nazwaZwierzecia="Kapucynka" imie="Stefcia" wiek="3" waga="30.0" dataUrodzenia="12.05.2019">
+      <Gatunek>ssak</Gatunek>
+      <Wybieg sektor="A" powierzchnia="25m^2" typ="zamknięty"/>
+      <powierzchniaNaKg>0.83</powierzchniaNaKg>
+    </zwierze>
+    <zwierze nazwaZwierzecia="Salamandra" imie="Weri" wiek="2" waga="0.2" dataUrodzenia="17.07.2020">
+      <Gatunek>gad</Gatunek>
+      <Wybieg sektor="A" powierzchnia="5m^2" typ="zamknięty"/>
+      <powierzchniaNaKg>25.00</powierzchniaNaKg>
+    </zwierze>
+    <zwierze nazwaZwierzecia="Wydra" imie="Zosia" wiek="15" waga="20.0" dataUrodzenia="12.05.2007">
+      <Gatunek>ssak</Gatunek>
+      <Wybieg sektor="A" powierzchnia="100m^2" typ="wodny"/>
+      <powierzchniaNaKg>5.00</powierzchniaNaKg>
+    </zwierze>
+  </zwierzeta>
+  <statystyki>
+    <iloscZwierzat>20</iloscZwierzat>
+    <iloscSsakow>12</iloscSsakow>
+    <iloscGadow>2</iloscGadow>
+    <iloscPlazow>1</iloscPlazow>
+    <iloscRyb>3</iloscRyb>
+    <iloscPtakow>2</iloscPtakow>
+    <sredniaWaga>251.43</sredniaWaga>
+    <najciezszeZwierze>Henio</najciezszeZwierze>
+    <najlzejszeZwierze>Lucy</najlzejszeZwierze>
+    <iloscWybiegow>20</iloscWybiegow>
+    <iloscWybiegowA>12</iloscWybiegowA>
+    <iloscWybiegowB>4</iloscWybiegowB>
+    <iloscWybiegowC>4</iloscWybiegowC>
+    <sredniaPowierzchniaWybiegu>138.50</sredniaPowierzchniaWybiegu>
+    <sredniWiek>8.35</sredniWiek>
+    <najwiekszyWybieg>W18</najwiekszyWybieg>
+  </statystyki>
+</zoo>

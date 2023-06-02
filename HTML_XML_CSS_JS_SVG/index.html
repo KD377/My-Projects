@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="form.css"/>
+    <title>Formularz</title>
+  </head>
+  <body>
+    <div id="container">
+      <div id="header">Formularz do edycji XML</div>
+      <div id="content">
+          <label id="inputLabel">
+            Wybierz plik XML<input type="file" name="fileInput" id="plik" type="text/xml">
+          </label>
+          <button id="loadButton">Load</button>
+
+        <div class="function">
+          <div class="t">Dodaj element</div>
+          <div id="zwierze" class="form">
+            <h3>Dodaj zwierze</h3>
+            <div id="warning1"></div>
+            <div id="warning2"></div>
+            <div id="warning3"></div>
+            <div id="warning4"></div>
+            <label>Nazwa zwierzęcia <input type="text" name="nazwa" id="nazwa"></label>
+            <label>Imię <input type="text" name="imie" id="imie"></label>
+            <label>Wiek <input type="text" name="wiek" id="wiek"></label>
+            <label>Waga <input type="text" name="waga" id='waga'></label>
+            <label>Data urodzenia <input type="date" name="data" id='data'></label>
+            <label>Numer wybiegu
+              <select id="wybieg">
+              </select>
+              <label for="gatunek">Gatunek</label>
+              <select id="gatunek">
+                <option value="01">ssak</option>
+                <option value="02">gad</option>
+                <option value="03">płaz</option>
+                <option value="04">ryba</option>
+                <option value="05">ptak</option>
+              </select>
+            </label>
+            <button type="button" name="addButton">Add</button>
+          </div>
+          <div id='dodajWybieg' class="form">
+            <h3>Dodaj wybieg</h3>
+            <div id="runWarning"></div>
+            <label for="sektor">Sektor
+              <select id="sektor">
+                <option value="1">A</option>
+                <option value="2">B</option>
+                <option value="3">C</option>
+              </select>
+            </label>
+            <label>Powierzchnia <input type="text" name="imie" id="powierzchnia"></label>
+              <label for="typ">Typ
+                <select id="typ">
+                  <option value="1">otwarty</option>
+                  <option value="2">wodny</option>
+                  <option value="3">zamknięty</option>
+                </select>
+              </label>
+            <button type="button" name="addButton" id="addRun">Add</button>
+          </div>
+        </div>
+
+        <div class="function">
+          <div class="t">Usuń element</div>
+          <div id='usunZwierze' class="form">
+            <h3>Usun zwierze</h3>
+            <label for="deleteAnimal">Zwierze
+              <select id="deleteAnimal">
+              </select>
+            </label>
+            <button type="button" name="deletButton" id="deleteAnimalButton">Delete</button>
+          </div>
+
+          <div id='usunWybieg' class="form">
+            <h3>Usun wybieg</h3>
+            <label for="deleteRun">Wybieg
+              <select id="deleteRun">
+              </select>
+            </label>
+            <button  type="button" name="deletButton" id="deleteRunButton">Delete</button>
+          </div>
+        </div>
+
+        <div class="function">
+          <div class="t">Modyfikuj element</div>
+          <div id="modyfikujZwierze" class="form">
+            <h3>Modyfikuj zwierze</h3>
+            <div id="warning5"></div>
+            <div id="warning6"></div>
+            <div id="warning7"></div>
+            <div id="warning8"></div>
+            <label for="pickAnimal">Zwierze do edycji
+              <select id="pickAnimal">
+              </select>
+            </label>
+            <label>Nazwa zwierzęcia <input type="text" name="nazwa" id="nowaNazwa"></label>
+            <label>Imię <input type="text" name="imie" id="noweImie"></label>
+            <label>Wiek <input type="text" name="wiek" id="nowyWiek"></label>
+            <label>Waga <input type="text" name="waga" id='nowaWaga'></label>
+            <label>Data urodzenia <input type="date" name="data" id='nowaData'></label>
+            <label>Numer wybiegu
+              <select id="nowyWybieg">
+              </select>
+            </label>
+              <label for="gatunek">Gatunek
+              <select id="nowyGatunek">
+                <option value="00" selected="selected">don't change</option>
+                <option value="01">ssak</option>
+                <option value="02">gad</option>
+                <option value="03">płaz</option>
+                <option value="04">ryba</option>
+                <option value="05">ptak</option>
+              </select>
+            </label>
+            <button type="button" name="modifyAnimalButton" id="modifyAnimalButton">Change</button>
+          </div>
+
+          <div id='modyfikujWybieg' class="form">
+            <h3>Modyfikuj wybieg</h3>
+            <div id="runModifyWarning"></div>
+            <label for="pickRun">Wybieg
+              <select id="pickRun">
+              </select>
+            </label>
+            <label for="nowySektor">Sektor
+              <select id="nowySektor">
+                <option value="0" selected="selected">don't change</option>
+                <option value="1">A</option>
+                <option value="2">B</option>
+                <option value="3">C</option>
+              </select>
+            </label>
+            <label>Powierzchnia <input type="text" name="imie" id="nowaPowierzchnia"></label>
+              <label for="nowyTyp">Typ
+                <select id="nowyTyp">
+                  <option value="0" selected="selected">don't change</option>
+                  <option value="1">otwarty</option>
+                  <option value="2">wodny</option>
+                  <option value="3">zamknięty</option>
+                </select>
+              </label>
+            <button type="button" name="modifyRunButton" id="modifyRunButton">Change</button>
+          </div>
+        </div>
+
+        <button id="saveButton">Zapisz</button>
+
+      </div>
+    </div>
+    <script src="form.js"></script>
+  </body>
+</html>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+  <zoo>
+    <zwierzeta>
+      <zwierze gatunek="ssak" IdWYbiegu="W01">
+        <nazwaZwierzecia>słoń</nazwaZwierzecia> <!--nazwa może zawierać 40 znaków  -->
+        <imie>Stefan</imie><!--Imie zaczyna się wielką literą i może zaiwerać max 15 znaków-->
+        <wiek>22</wiek><!-- liczba całkowita -->
+        <waga jednostka="kg">500.0</waga><!--liczba zmiennoprzecinowa. Reprezentacja w jednostce kg -->
+        <zdjecie src="./Photos/Animals/Stefan" format="JPEG"/><!--zdjęcie musi byc zapisane pod podaną ścieżką w formacie JPEG-->
+        <dataUrodzenia>12.05.2000</dataUrodzenia><!-- data w formacie dd.mm.yyyy-->
+        <![CDATA[
+          dd.mm.yyyy
+        ]]>
+      </zwierze>
+      <zwierze gatunek="ryba" IdWYbiegu="W02">
+        <nazwaZwierzecia>Rekin</nazwaZwierzecia><!--nazwa może zawierać 40 znaków  -->
+        <imie>Daro</imie><!--Imie zaczyna się wielką literą i może zaiwerać max 15 znaków-->
+        <wiek>17</wiek><!-- liczba całkowita -->
+        <waga jednostka="kg">400.0</waga><!--liczba zmiennoprzecinowa. Reprezentacja w jednostce kg -->
+        <zdjecie src="./Photos/Animals/Daro"/><!--zdjęcie musi byc zapisane pod podaną ścieżką w formacie JPEG-->
+        <dataUrodzenia>15.06.2005</dataUrodzenia><!-- data w formacie dd.mm.yyyy-->
+        <![CDATA[
+          dd.mm.yyyy
+        ]]>
+      </zwierze>
+      <zwierze gatunek="gad" IdWYbiegu="W03">
+        <nazwaZwierzecia>Wąż</nazwaZwierzecia><!--nazwa może zawierać 40 znaków  -->
+        <imie>Burek</imie><!--Imie zaczyna się wielką literą i może zaiwerać max 15 znaków-->
+        <wiek>15</wiek><!-- liczba całkowita -->
+        <waga jednostka="kg">150.0</waga><!--liczba zmiennoprzecinowa. Reprezentacja w jednostce kg -->
+        <zdjecie src="./Photos/Animals/Burek"/><!--zdjęcie musi byc zapisane pod podaną ścieżką w formacie JPEG-->
+        <dataUrodzenia>12.10.2007</dataUrodzenia><!-- data w formacie dd.mm.yyyy-->
+        <![CDATA[
+          dd.mm.yyyy
+        ]]>
+      </zwierze>
+    </zwierzeta>
+
+    <gatunki>
+      <gatunek>ssak</gatunek><!--gatunek jeden z: ssak,gad,płaz,ryba,ptak -->
+      <gatunek>ryba</gatunek><!--gatunek jeden z: ssak,gad,płaz,ryba,ptak -->
+      <gatunek>gad</gatunek><!--gatunek jeden z: ssak,gad,płaz,ryba,ptak -->
+    </gatunki>
+
+    <wybiegi>
+      <wybieg IdWYbiegu="W01"><!--id w formacie duża litera W oraz dwie cyfry -->
+        <sektor>A</sektor><!--Wielka litera alfabetu łacińskiego od A-F -->
+        <powierzchnia jednostka="m^2">200</powierzchnia><!--Liczba calkowita nieujemna max 500 jednostka m^2-->
+        <typ>otwarty</typ><!--do wyboru typ: otawrty,zamknięty,wodny-->
+      </wybieg>
+      <wybieg IdWYbiegu="W02"><!--id w formacie duża litera W oraz dwie cyfry -->
+        <sektor>A</sektor><!--Wielka litera alfabetu łacińskiego od A-F -->
+        <powierzchnia jednostka="m^2">100</powierzchnia><!--Liczba calkowita nieujemna max 500 jednostka m^2-->
+        <typ>wodny</typ><!--do wyboru typ: otawrty,zamknięty,wodny-->
+      </wybieg>
+      <wybieg IdWYbiegu="W03"><!--id w formacie duża litera W oraz dwie cyfry -->
+        <sektor>A</sektor><!--Wielka litera alfabetu łacińskiego od A-F -->
+        <powierzchnia jednostka="m^2">5</powierzchnia><!--Liczba calkowita nieujemna max 500 jednostka m^2-->
+        <typ>zamknięty</typ><!--do wyboru typ: otawrty,zamknięty,wodny-->
+      </wybieg>
+    </wybiegi>
+
+  </zoo>

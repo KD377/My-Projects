@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg viewBox="0 0 600 400" version="1.1"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink" id="svg">
+  <title>Gra color blast</title>
+  <defs>
+    <filter id="f1" x="0" y="0" width="200%" height="200%">
+      <feOffset result="offOut" in="SourceAlpha" dx="20" dy="20" />
+      <feGaussianBlur result="blurOut" in="offOut" stdDeviation="10" />
+      <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+    </filter>
+  </defs>
+  <rect x="0" y="0" height="100%" width="100%" fill="#060606" stroke="#000000"/>
+  <rect x="60" y="40" height="320" width="480" fill="#171717" stroke="#000000" id="gameBoard"/>
+  <rect x="285" y="344" height="14" width="30" fill="#FFFFFF" id="player"/>
+  <text x="50%" y="30" font-size="30" fill="#f54e42" text-anchor="middle" id="title" filter="url(#f1)" >Color Blast</text>
+
+  <text x="65" y="375" font-size="12" fill="#FFFFFF">Score:</text>
+  <text x="96" y="375" font-size="12" fill="#FFFFFF" id="score">0</text>
+  <text x="50%" y="375" font-size="12" fill="#FFFFFF" text-anchor="middle">Controls: move 'ArrowLeft' 'ArrowRight', shoot 'Space'</text>
+  <text x="500" y="375" font-size="12" fill="#FFFFFF">Lives:</text>
+  <text x="530" y="375" font-size="12" fill="#FFFFFF" id="lives">0</text>
+
+  <text x="50%" y="50%" font-size="40" fill="transparent" text-anchor="middle" id="gameOver" class="end" filter="url(#f1)">GameOver</text>
+  <text x="50%" y="56%" font-size="15" fill="transparent" text-anchor="middle" id="gameOver1" class="end" filter="url(#f1)">Zdobyte punkty:</text>
+  <text x="350" y="56%" font-size="15" fill="transparent" id="collectedPoints" class="end" filter="url(#f1)"> </text>
+  <text x="50%" y="61%" font-size="10" fill="transparent" text-anchor="middle" id="playAgain" class="end" filter="url(#f1)">Click 'R' to play again </text>
+
+  <text x="50%" y="50%" font-size="40" fill="transparent" text-anchor="middle" id="welcome" class="begin" filter="url(#f1)">Welcome to Color Blast</text>
+  <text x="50%" y="56%" font-size="15" fill="transparent" text-anchor="middle" id="welcome1" class="begin" filter="url(#f1)">by Krzysztof Deka 242377</text>
+  <text x="50%" y="61%" font-size="10" fill="transparent" text-anchor="middle" id="play" class="begin" filter="url(#f1)">Click 'Space' to play</text>
+
+  <g id="info"></g>
+  <g id="enemies">
+  </g>
+  <g id="shots">
+  </g>
+  <g id="enemyShots">
+  </g>
+  <script type="text/javascript" xlink:href="main.js"/>
+
+</svg>

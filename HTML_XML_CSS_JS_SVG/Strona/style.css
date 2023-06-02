@@ -1,0 +1,175 @@
+body
+{
+  color: #C5C6C7;
+  background-color: #0B0C10;
+  margin: 0;
+}
+
+#container
+{
+  width: 100%;
+  margin-top: 0;
+}
+
+#header
+{
+  width: 100%;
+  background-color: #0B0C10;
+  display: block;
+  text-align: center;
+  color: #FFF;
+  font-size: 50px;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-shadow: 2px 2px 4px #FFF;
+}
+
+#header > p
+{
+  font-size: 20px;
+}
+
+#menubar
+{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #45A29E;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  transition: opacity 0.5s ease;
+}
+
+#menubar.scrolled
+{
+  opacity: 0.6;
+}
+
+#menubar.scrolled:hover
+{
+  opacity: 1;
+}
+
+.menucontent
+{
+  display: block;
+  float: left;
+  width: 10%;
+  text-align: center;
+  padding: 15px;
+  color: #FFF;
+  font-weight: bold;
+  font-size: 20px;
+  transition: background-color 0.5s ease-out;
+  text-shadow: 1px 1px 4px #000;
+}
+.menucontent:hover{
+  background-color: #1F2833;
+  text-shadow: 1px 1px 4px #66FCF1;
+}
+#content{
+  margin-top: 50px;
+}
+.zad
+{
+  margin-top: 50px;
+}
+h1
+{
+  margin-top: 0;
+  text-align: center;
+  color:#66FCF1;
+  font-size: 50px;
+  text-shadow: 1px 1px 4px #66FCF1;
+}
+.wrapper
+{
+  width :70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.description
+{
+  width: 30%;
+  margin-left: 5%;
+  padding: 2%;
+  text-align: justify;
+  font-size: 15px;
+  background-color: rgba(31,40,51,0.4);
+  box-shadow: 0px 0px 5px 5px rgba(69,162,157,0.4);
+}
+
+.file
+{
+  margin-top: 0;
+  padding: 2%;
+  background-color: rgba(31,40,51,0.4);
+  box-shadow: 0px 0px 5px 5px rgba(69,162,157,0.4);
+  width: 60%;
+  margin-left: 5%;
+  height: 300px;
+  overflow: scroll;
+  text-align: left;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.buttons
+{
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.button-88 {
+  display: inline-block;
+  margin-left: 20px;
+  align-items: center;
+  width:12%;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 0.7em 1.4em 0.7em 1.1em;
+  color: white;
+  background: #66FCF1;
+  background: linear-gradient(0deg, rgba(69,162,158,1) 0%, rgba(102,252,242,1) 100%);
+  border: none;
+  box-shadow: 0 0.3em 1.5em -0.5em #66FCF1;
+  letter-spacing: 0.05em;
+  border-radius: 20em;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-88:hover {
+  box-shadow: 0 0.5em 1.5em -0.5em #14a73e98;
+}
+
+.button-88:active {
+  box-shadow: 0 0.3em 1em -0.5em #14a73e98;
+}
+
+#footer
+{
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #000;
+  font-size: 20px;
+  color: #FFF;
+  text-align: center;
+  margin-top: 30px;
+}
