@@ -1,0 +1,4 @@
+CLS
+BCC z3a.CPP z3.ASM
+DEL   *.OBJ
+DEL   *.MAP
